@@ -52,7 +52,7 @@ public class DZ4 {
             System.out.print(i + " ");
         }
         System.out.println();
-
+        map = new char[SIZE][SIZE];
         for (int i = 0; i < SIZE; i++) {
             System.out.print((i + 1) + " ");
             for (int j = 0; j < SIZE; j++) {
